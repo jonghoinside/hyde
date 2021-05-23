@@ -1,10 +1,10 @@
-title: ChemistryX
+title: jonghoinside
 description: >-
   UI & UX Designer
   Frontend Developer
-url: "https://chemistryx.me"
-github: ChemistryX
-email: starpiung@naver.com
+url: "https://jonghoinside.github.io"
+github: jonghoinside
+email: jonghoinside@gmail.com
 google_analytics: UA-146771648-1
 
 exclude: [README.md, Gemfile, Gemfile.lock]
