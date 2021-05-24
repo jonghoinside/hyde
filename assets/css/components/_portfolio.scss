@@ -1,12 +1,12 @@
-// Portfolio
+// ReviewSheet
 
-.hyde.portfolio {
+.hyde.ReviewSheet {
   margin: 4rem 0;
 
-  .hyde.portfolio-item-wrapper {
+  .hyde.ReviewSheet-item-wrapper {
     padding: 0 1rem 1rem 0;
 
-    .hyde.portfolio-item {
+    .hyde.ReviewSheet-item {
       position: relative;
       overflow: hidden;
       color: white;
@@ -30,7 +30,7 @@
         transition: transform 0.3s ease, opacity 0.3s ease;
       }
 
-      .hyde.portfolio-overlay {
+      .hyde.ReviewSheet-overlay {
         position: absolute;
         width: 100%;
         bottom: 0;
