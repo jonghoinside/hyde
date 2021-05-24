@@ -6,7 +6,7 @@ visible: true
 ---
 
 {% if site.data.ReviewSheet %}
-<div class="hyde Review Sheet row">
+<div class="hyde ReviewSheet row">
   {% for item in site.data.ReviewSheet reversed %} {% assign identifier = item.image | split: "." | first %}
   <div class="hyde ReviewSheet-item-wrapper col-lg-4 col-md-6 col-sm-12">
     <div class="hyde ReviewSheet-item">
