@@ -28,7 +28,7 @@ comment: true
     </div>
   </div>
   {% endif %} 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus.html -%}
-  {%- endif -%}
+  <div id="post-disqus" class="container">
+    {% include disqus.html %}
+  </div>
 </div>
