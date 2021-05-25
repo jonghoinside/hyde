@@ -27,11 +27,8 @@ comment: true
       </div>
     </div>
   </div>
-  {% endif %} {% if site.comment.enabled %}
-  <div class="hyde comment">
-    <hr />
-    <h2>댓글</h2>
-  </div>
-    {% include comment.html }
-  {% endif %}
+  {% endif %} 
+  {%- if site.disqus.shortname -%}
+    {%- include disqus.html -%}
+  {%- endif -%}
 </div>
