@@ -1,31 +1,95 @@
-- title: 아비스 네트워크 로고
-  description: 마인크래프트 서버 아비스 네트워크 로고를 디자인하였습니다.
-  image: 4.5.pdf
+- title: [4월 5일 Review Sheet]
+  description: [C 언어] 교육 1일차 리뷰 시트입니다.
+  image: 4.5.jpg
 
-- title: 아비스 네트워크 홍보지
-  description: 마인크래프트 서버 아비스 네트워크 홍보지를 디자인하였습니다.
-  image: avis-brochure.png
+  - title: [4월 6일 Review Sheet]
+  description: [C 언어] 교육 2일차 리뷰 시트입니다.
+  image: 4.6.jpg
 
-- title: 아비스 네트워크 카페
-  description: 네이버 카페 아비스 네트워크를 디자인하였습니다.
-  image: avis-cafe.png
+  - title: [4월 7일 Review Sheet]
+  description: [C 언어] 교육 3일차 리뷰 시트입니다.
+  image: 4.7.jpg
 
-- title: 마인크래프트 한국 PVP 커뮤니티 카페
-  description: 네이버 카페 마인크래프트 한국 PVP 커뮤니티를 디자인하였습니다.
-  image: mkpc-cafe.png
+  - title: [4월 8일 Review Sheet]
+  description: [C 언어] 교육 4일차 리뷰 시트입니다.
+  image: 4.8.jpg
 
-- title: 아르카 네트워크 홍보지
-  description: 마인크래프트 서버 아르카 네트워크 홍보지를 디자인하였습니다.
-  image: arka-brochure.jpg
+  - title: [4월 9일 Review Sheet]
+  description: [C 언어] 교육 5일차 리뷰 시트입니다.
+  image: 4.9.jpg
 
-- title: 아르카 네트워크 대문
-  description: 네이버 카페 아르카 네트워크 대문을 디자인하였습니다.
-  image: arka-cafe.png
+  - title: [4월 13일 Review Sheet]
+  description: [C 언어] 교육 6일차 리뷰 시트입니다.
+  image: 4.13.jpg
 
-- title: 데이드림 로고
-  description: 커뮤니티 데이드림 로고를 제작하였습니다.
-  image: daydream-logo.png
+  - title: [4월 14일 Review Sheet]
+  description: [C 언어] 교육 7일차 리뷰 시트입니다.
+  image: 4.14.jpg
 
-- title: 아케이드 로고
-  description: 마인크래프트 서버 아케이드 로고를 제작하였습니다.
-  image: arcade-logo.png
+  - title: [4월 15일 Review Sheet]
+  description: [C 언어] 교육 8일차 리뷰 시트입니다.
+  image: 4.15.jpg
+
+  - title: [4월 16일 Review Sheet]
+  description: [C 언어] 교육 9일차 리뷰 시트입니다.
+  image: 4.16.jpg
+
+  - title: [4월 19일 Review Sheet]
+  description: [C 언어] 교육 10일차 리뷰 시트입니다.
+  image: 4.19.jpg
+
+  - title: [4월 20일 Review Sheet]
+  description: [C 언어] 교육 11일차 리뷰 시트입니다.
+  image: 4.20.jpg
+
+  - title: [4월 21일 Review Sheet]
+  description: [C 언어] 교육 12일차 리뷰 시트입니다.
+  image: 4.21.jpg
+
+  - title: [4월 22일 Review Sheet]
+  description: [C 언어] 교육 13일차 리뷰 시트입니다.
+  image: 4.22.jpg
+
+  - title: [5월 3일 Review Sheet]
+  description: [C 언어] 교육 14일차 리뷰 시트입니다.
+  image: 5.3.jpg
+
+  - title: [5월 6일 Review Sheet]
+  description: [C 언어] 교육 15일차 리뷰 시트입니다.
+  image: 5.6.jpg
+
+  - title: [5월 7일 Review Sheet]
+  description: [C 언어] 교육 16일차 리뷰 시트입니다.
+  image: 5.7.jpg
+
+  - title: [5월 10일 Review Sheet]
+  description: [C 언어] 교육 17일차 리뷰 시트입니다.
+  image: 5.10.jpg
+
+  - title: [5월 11일 Review Sheet]
+  description: [C++ 언어] 교육 1일차 리뷰 시트입니다.
+  image: 5.11.jpg
+
+  - title: [5월 12일 Review Sheet]
+  description: [C++ 언어] 교육 2일차 리뷰 시트입니다.
+  image: 5.12.jpg
+
+  - title: [5월 13일 Review Sheet]
+  description: [C++ 언어] 교육 3일차 리뷰 시트입니다.
+  image: 5.13.jpg
+  
+  - title: [5월 14일 Review Sheet]
+  description: [C++ 언어] 교육 4일차 리뷰 시트입니다.
+  image: 5.14.jpg
+
+  - title: [5월 18일 Review Sheet]
+  description: [C++ 언어] 교육 5일차 리뷰 시트입니다.
+  image: 5.18.jpg
+
+  - title: [5월 20일 Review Sheet]
+  description: [C++ 언어] 교육 6일차 리뷰 시트입니다.
+  image: 5.20.jpg
+
+  - title: [5월 24일 Review Sheet]
+  description: [C++ 언어] 교육 7일차 리뷰 시트입니다.
+  image: 5.24.jpg
