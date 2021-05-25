@@ -11,11 +11,15 @@ email: jonghoinside@gmail.com
 
 exclude: [README.md, Gemfile, Gemfile.lock]
 
-comment:
+comments:
+  provider: disqus
   enabled: true
   repo: jonghoinside/hyde-comments
   issue-term: pathname
   theme: github-light
+  
+disqus:
+  shortname: https-jonghoinside-github-io
 
 collections:
   pages:
