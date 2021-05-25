@@ -1,5 +1,6 @@
 ---
 layout: default
+comment: true
 ---
 
 <div class="hyde content">
@@ -8,4 +9,7 @@ layout: default
   {% endif %} {% if page.youtube %}
   <div class="hyde youtube" id="{{ page.youtube }}"></div>
   {% endif %} {{ content }}
+  <div id="post-disqus" class="container">
+    {% include disqus.html %}
+  </div>
 </div>
