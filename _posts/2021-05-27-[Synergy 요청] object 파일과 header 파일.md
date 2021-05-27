@@ -26,6 +26,6 @@ object 파일과 header 파일은 더 많은 방식으로 사용될 수 있지�
 
 쉬운 이해를 돕기 위해 손으로 작성하여 보여드리겠습니다.
 
-<center><img src="/assets/images/posts/object 파일과 header 파일의 사용.png" width="100%" height="100%"></center>
+<center><img src="/assets/images/posts/object 파일과 header 파일의 사용.png" width="150%" height="150%"></center>
 
 설명이 틀린 부분이나 부족한 부분이 있다면 꼭 아래 댓글로 요청해주세요! 감사합니다. 😄
