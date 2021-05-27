@@ -45,3 +45,5 @@ defaults:
     values:
       layout: tag
       permalink: /tags/:title
+
+plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-include-cache', 'jekyll-gist']
