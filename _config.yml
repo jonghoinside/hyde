@@ -7,7 +7,13 @@ description: >-
 url: "https://jonghoinside.github.io"
 github: jonghoinside
 email: jonghoinside@gmail.com
-# google_analytics: UA-146771648-1
+
+# Analytics
+analytics:
+  provider               : "google-gtag" # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "G-DKL5WFWJ26"
+    anonymize_ip         : # true, false (default)
 
 exclude: [README.md, Gemfile, Gemfile.lock]
 
