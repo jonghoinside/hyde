@@ -12,9 +12,9 @@ int main() {
 	list1.insertNode(1, 2);
 	list1.deleteNode(3);
 
-    list2.insertFirstNode(4);
-    list2.insertFirstNode(2);
-    list2.insertFirstNode(1);
+	list2.insertFirstNode(4);
+	list2.insertFirstNode(2);
+	list2.insertFirstNode(1);
     
 /// 생략
 	if (list1 == list2)
@@ -45,7 +45,7 @@ void List::insertNode( int prevData, int data) {
 }
 ```
 
-Node * p 를 선언하고 ptr_->next를 가르키게 합니다. 그리고 p 값이 null이 될 때까지 while 문을 돌게 됩니다. while 문 안에서는 if 로 p가 가르키는 Node의 data 값이 인자값으로 전달된 1 (prevData) 이 맞는지 확인하고 맞으면 break로 반복문을 종료하고, 틀리면 p 값을 p 가 가르키는 Node의 next 값으로 치환합니다. 이렇게 치환되면 p는 다음 Data를 계속 가르키게 됩니다. 우선은 여기까지의 코드를 그림으로 그려보겠습니다.
+Node * p 를 선언하고 ptr_->next를 가르킵니다. 그리고 p 값이 null이 될 때까지 while 문을 돌게 됩니다. while 문 안에서는 if 로 p가 가르키는 Node의 data 값이 인자값으로 전달된 1 (prevData) 이 맞는지 확인하고 맞으면 break로 반복문을 종료하고, 틀리면 p 값을 p 가 가르키는 Node의 next 값으로 치환합니다. 이렇게 치환되면 p는 다음 Data를 계속 가르키게 됩니다. 우선은 여기까지의 코드를 그림으로 그려보겠습니다.
 
 <center><img src="/assets/images/posts/linked list2(2).PNG" width="100%" height="100%"></center>
 
@@ -131,7 +131,7 @@ if의 조건식이 (1 == 3), false 이므로 다음으로 건너뛰어서 코드
 
 <center><img src="/assets/images/posts/linked list2(8).PNG" width="100%" height="100%"></center>
 
-이렇게 해서 deleteNode 함수의 실행까지 살펴보았습니다. dummy Node가 왜 필요한지 감이 오셨나요? Linked List의 장점이 바로 data들 사이에 data를 삽입하거나 삭제할 때 자료구조의 변경이 필요없다는 것이었는데요. 우리가 지금까지 살펴보니 연결된 pointer 값만 변경해주면 순서가 쉽게 변경되는 것을 확인했습니다. 하지만 그 의미는 pointer를 잘 관리하지 못하면 끊긴 data들에는 접근할 수 없어진다는 것입니다.
+이렇게 해서 deleteNode 함수의 실행까지 살펴보았습니다. Dummy Node가 왜 필요한지 감이 오셨나요? Linked List의 장점이 바로 data들 사이에 data를 삽입하거나 삭제할 때 자료구조의 변경이 필요없다는 것이었는데요. 우리가 지금까지 살펴보니 연결된 pointer 값만 변경해주면 순서가 쉽게 변경되는 것을 확인했습니다. 하지만 그 의미는 pointer를 잘 관리하지 못하면 끊긴 data들에는 접근할 수 없어진다는 것입니다.
 
 그렇기 때문에 중간에 데이터를 삭제하기 위해서는 그 전에 삭제할 데이터를 가르키고 있는 pointer를 알아야 할 필요가 있었습니다. 그래서 Node * 를 2개 만들어서 한단계 차이로 계속 쫓아가는 듯한 그림을 만들어야 했던 것입니다. data를 삭제한 후에 끊긴 pointer를 연결해서 다음 Node를 가리키게 만드는 것이죠.
 
