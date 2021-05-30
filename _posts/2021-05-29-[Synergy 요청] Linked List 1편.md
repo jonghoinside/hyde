@@ -35,23 +35,23 @@ Linked List에서 데이터를 삽입하거나 삭제할 때 전체 자료 구�
 #include "list.h"
 
 int main() {
- List list1;
- list1.insertFirstNode(4);
- list1.insertFirstNode(3);
- list1.insertFirstNode(1);
- list1.insertNode(1, 2);
- list1.deleteNode(3);
+     List list1;
+     list1.insertFirstNode(4);
+     list1.insertFirstNode(3);
+     list1.insertFirstNode(1);
+     list1.insertNode(1, 2);
+     list1.deleteNode(3);
     
- list2.insertFirstNode(4);
- list2.insertFirstNode(2);
- list2.insertFirstNode(1);
+     list2.insertFirstNode(4);
+     list2.insertFirstNode(2);
+     list2.insertFirstNode(1);
 /// 생략
- if (list1 == list2)
-  std::cout << "list1 and list2 are equal" << std::endl;
- else
-  std::cout << "list1 and list2 are not equal" << std::endl;
+     if (list1 == list2)
+          std::cout << "list1 and list2 are equal" << std::endl;
+     else
+          std::cout << "list1 and list2 are not equal" << std::endl;
 	
- return 0;
+     return 0;
 }
 ```
 
