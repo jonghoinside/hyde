@@ -192,7 +192,7 @@ void List::deleteNode(int data) {
 
 먼저 main 함수의 첫번째 줄부터 해석을 시작합니다.
 
-```C
+```c
 int main() {
 	List list1;
 	list1.insertFirstNode(4);
