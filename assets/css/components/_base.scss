@@ -55,7 +55,7 @@ img {
 
   blockquote {
     border-radius: 10px;
-    border-left: 7px solid $gray;
+    border-left: 7px solid $blue;
     padding-left: 1rem;
 
     p {
@@ -69,7 +69,7 @@ img {
   }
 
   code.highlighter-rouge {
-    background-color: $black300;
+    background-color: $gray400;
     padding: 0.15rem 0.2rem;
     border-radius: 5px;
     word-break: break-word;
